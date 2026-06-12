@@ -1,49 +1,38 @@
 # Bitcoin Market Sentiment vs Trader Performance Analysis
 
 ## Objective
+Analyze the relationship between Bitcoin market sentiment (Fear & Greed Index) and trader performance using Hyperliquid historical trading data.
 
-Analyze the relationship between Bitcoin market sentiment (Fear & Greed Index) and Hyperliquid trader performance.
+## Dataset
+- fear_greed_index.csv
+- historical_data.csv
 
-## Datasets
-
-1. Bitcoin Fear & Greed Index Dataset
-2. Hyperliquid Historical Trading Dataset
-
-## Project Workflow
-
-* Data Cleaning
-* Data Transformation
-* Data Merging
-* Exploratory Data Analysis (EDA)
-* Profitability Analysis
-* Win Rate Analysis
-* Statistical Testing
-* Insight Generation
+## Analysis Performed
+- Data Cleaning
+- Dataset Merging
+- Profit Analysis by Sentiment
+- Win Rate Analysis
+- Trade Size Analysis
+- Correlation Analysis
+- Statistical Testing (T-Test)
+- Top Trader Analysis
+- Monthly Profit Trends
 
 ## Key Findings
+- Extreme Greed showed the highest average profit.
+- Extreme Greed achieved the highest win rate.
+- Fear generated the highest total profit volume.
+- Sentiment impacts trader performance but statistical testing suggests differences are not strongly significant.
 
-* Extreme Greed produced the highest average profit per trade.
-* Fear generated the highest cumulative profit.
-* Extreme Greed achieved the highest win rate.
-* Statistical testing showed no significant difference between Fear and Greed profitability (p-value > 0.05).
-
-## Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* SciPy
-* Jupyter Notebook
-
-## Folder Structure
-
+## Project Structure
 data/
 notebooks/
 outputs/
 src/
 
-## Author
-
-Sujoy Rana
+## Libraries
+pandas
+numpy
+matplotlib
+seaborn
+scipy
